@@ -1,0 +1,8 @@
+git clone https://github.com/ProgrammingClassrooms/Software-Eng.git
+git config --global user.name "Venny"
+git config --global user.email vlo1@gmail.com
+git init
+git add -A
+git commit -m "first commit"
+git remote add myorigin <https://github.com/unccvlo/Software-Engineering.git>
+git push -u myorigin master
